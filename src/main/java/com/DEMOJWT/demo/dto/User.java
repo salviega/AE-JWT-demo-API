@@ -1,5 +1,8 @@
 package com.DEMOJWT.demo.dto;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "users")
 public class User {
     private String user;
     private String pwd;
